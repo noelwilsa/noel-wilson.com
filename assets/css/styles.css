@@ -3,11 +3,11 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  --font-semi: 600;
+  --font-semi: 800;
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
+  --hue-color: 260;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
@@ -163,6 +163,7 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+  
 }
 
 .nav__toggle {
@@ -319,19 +320,19 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
+skills__html {
   width: 95%;
 }
 
-.skills__css {
+skills__css {
   width: 85%;
 }
 
-.skills__js {
+skills__js {
   width: 65%;
 }
 
-.skills__ux {
+skills__ux {
   width: 85%;
 }
 
